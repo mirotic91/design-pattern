@@ -5,7 +5,7 @@ import me.mirotic.designpattern.creation.factorymethod.after.RedShip;
 import me.mirotic.designpattern.creation.factorymethod.after.ShipFactory;
 
 
-public class RedShipFactory implements ShipFactory {
+public class RedShipBeforeFactory implements ShipFactory {
 
     @Override
     public Ship create(String name) {
